@@ -1,6 +1,5 @@
 public class Operators {
 	public static void main(String[] args) {
-	int a = 9;
 	System.out.printf("%s << %s = %s, which is %d", Integer.toBinaryString(9), Integer.toBinaryString(1), Integer.toBinaryString(9<<1), 9<<1);
 	System.out.printf("\n%s >> %s = %s, which is %d", Integer.toBinaryString(9), Integer.toBinaryString(1), Integer.toBinaryString(9>>1), 9>>1);
 	System.out.printf("\n%s >>> %s = %s, which is %d", Integer.toBinaryString(9), Integer.toBinaryString(1), Integer.toBinaryString(9>>>1), 9>>>1);
